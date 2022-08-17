@@ -1,0 +1,29 @@
+body{
+         font-family: Arial, Helvetica, sans-serif;
+}
+section{
+         display: flex;
+         flex-direction: column;
+         gap:1.5rem;
+}
+p{
+         text-align: center;
+}
+input{
+         text-align: center;
+         outline: none;
+         border: none;
+}
+input:hover , input:focus{
+         border-bottom: solid orange 2px;
+}
+button{
+         background-color: orange;
+         pad: 20%;
+         border: none;
+         outline: none;
+         color: white;
+         font-weight: bolder;
+         padding: 0.5rem;
+         cursor: pointer;
+}
